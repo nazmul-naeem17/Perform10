@@ -1,0 +1,39 @@
+#division1{
+    margin: auto;
+    height: 280px;
+    padding: 10px;
+    border: 10px dotted blue;
+    background-color: aqua;
+    background: url('2.png'),url('1.png'),url('3.png');
+    background-repeat: no-repeat;
+    background-size: 200px 180px,200px 180px,200px 180px;
+    background-position: 50px 50px,330px 70px,600px 100px;
+}
+#division2{
+    border: 10px dotted blue;
+    background-color: aquamarine;
+    padding: 20px;
+    background-clip: border-box;
+    margin: 20px 10px 10px 30px;
+}
+#division3{
+    height: 300px;
+    width: 300px;
+    border: 5px solid blue;
+    background-color: aqua;
+    padding: 5px;
+    background-clip: content-box;
+}
+#division3 p{
+    border: 5px solid black;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.child{
+    width: 280px;
+    height: 280px;
+    border: 5px dotted green;
+    margin: auto;
+}
